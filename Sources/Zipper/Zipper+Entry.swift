@@ -45,8 +45,8 @@ public extension Zipper {
             let lastModFileTime: UInt16
             let lastModFileDate: UInt16
             let crc32: UInt32
-            let compressedSize: UInt32
-            let uncompressedSize: UInt32
+            public let compressedSize: UInt32
+            public let uncompressedSize: UInt32
             let fileNameLength: UInt16
             let extraFieldLength: UInt16
             public static let size = 30
